@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// @ts-check
+import { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import * as OUR_ROUTES from "./constants/routes";
+
+const Home = lazy(() => import("./pages/Home"));
+const Error = lazy(() => import("./pages/Error"));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Suspense
+        fallback={
+          <section>
+            <div className="flex h-screen">
+              <div className="m-auto">
+                <img
+                  width="128px"
+                  height="128px"
+                  src="/images/moving_train.gif"
+                  alt="loader"
+                />
+              </div>
+            </div>
+          </section>
+        }
+      >
+        <Routes>
+          <Route path={OUR_ROUTES.HOME} element={<Home />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </Suspense>
+    </Router>
   );
 }
 
