@@ -11,6 +11,10 @@ const Headline = () => {
           Self-taught learner, pursuing the <span className="text-cyan-600 hover:underline"> <a target="_blank" rel="noreferrer" href="https://www.coursera.org/professional-certificates/google-ux-design"> Google UX Designing </a> </span> course on Coursera and an aspiring UX/UI designer.
         </p>
         <p>Highly motivated, with an eye for detail and ability to adapt and learn new tools and techniques.</p>
+        <p>
+          Other than designing, my hobbies are reading thriller &amp; crime novels (Big fan of Anthony Horowitz, Dan Brown &amp; Rick Riordan).
+          I like making Origami &amp; Mandala Art and have also been professionally trained in Classical Music for 3 years.
+        </p>
       </div>
     </main>
   );

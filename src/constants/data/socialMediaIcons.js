@@ -1,5 +1,20 @@
-import { FaBehance, FaDribbble, FaInstagram } from "react-icons/fa";
+import {
+  FaBehance,
+  FaDribbble,
+  FaInstagram,
+  FaRegFilePdf,
+} from "react-icons/fa";
+
+const akankshaResume = "/assets/files/Akanksha_Tiwari_Resume.pdf";
+
 export const socialMediaIcons = [
+  {
+    icon: <FaRegFilePdf size={28} aria-hidden="true" />,
+    href: akankshaResume,
+    title: "Resume",
+    subTitle: "Akanksha Tiwari",
+    focusColor: "emerald", // text-emerald-600 hover:text-emerald-400 focus:ring-emerald-700
+  },
   {
     icon: <FaDribbble size={28} aria-hidden="true" />,
     href: "https://dribbble.com/akai28",
