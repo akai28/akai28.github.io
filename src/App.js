@@ -3,8 +3,9 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import * as OUR_ROUTES from "./constants/routes";
+import NavHeader from "./components/NavHeader";
 
-const Home = lazy(() => import("./pages/Home"));
+const Home = lazy(() => import("./pages/Home/Home"));
 const Error = lazy(() => import("./pages/Error"));
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           </section>
         }
       >
+        <NavHeader />
         <Routes>
           <Route path={OUR_ROUTES.HOME} element={<Home />} />
           <Route path="*" element={<Error />} />
