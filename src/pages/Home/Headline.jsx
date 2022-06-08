@@ -12,8 +12,8 @@ const Headline = () => {
         </p>
         <p>Highly motivated, with an eye for detail and ability to adapt and learn new tools and techniques.</p>
         <p>
-          Other than designing, my hobbies are reading thriller &amp; crime novels (Big fan of Anthony Horowitz, Dan Brown &amp; Rick Riordan).
-          I like making Origami &amp; Mandala Art and have also been professionally trained in Classical Music for 3 years.
+          Other than designing, my hobbies are reading thriller &amp; crime novels (Big fan of Anthony Horowitz, Holly Jackson, Dan Brown &amp; Rick Riordan).
+          I like making Origami &amp; Mandala Art and have also been professionally trained in Hindustani Classical Music for 3 years.
         </p>
       </div>
     </main>

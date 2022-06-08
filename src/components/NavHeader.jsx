@@ -29,7 +29,7 @@ const NavHeader = () => {
                     title={subTitle + ' on ' + title}
                     aria-label={subTitle + ' on ' + title}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className={`bg-white p-1 mr-2 rounded-full text-${focusColor}-600 hover:text-${focusColor}-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-${focusColor}-700`}
                   >
                     <span className="sr-only">Social Media</span>
@@ -61,7 +61,7 @@ const NavHeader = () => {
                     title={subTitle + ' on ' + title}
                     aria-label={subTitle + ' on ' + title}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className={`bg-white p-1 mr-2 rounded-full text-${focusColor}-600 hover:text-${focusColor}-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-${focusColor}-700`}
                   >
                     <span className="sr-only">Social Media</span>
