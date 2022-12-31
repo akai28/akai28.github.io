@@ -5,18 +5,56 @@ export const allCertifications = [
     certificateProvider: "Coursera",
     courses: [
       {
+        cid: 7,
+        courseName: "Design a User Experience for Social Good & Prepare for Jobs",
+        projects: [
+          {
+            pid: 1,
+            projectName: "Case Study",
+            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+          },
+          {
+            pid: 2,
+            projectName: "Create a case study for your portfolio",
+            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+          }
+        ]
+      },
+      {
+        cid: 6,
+        courseName: "Responsive Web Design in Adobe XD",
+        achievement: "Achieved 96.25%",
+        projects: [
+          {
+            pid: 1,
+            projectName: "Create a high-fidelity prototype",
+            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+          },
+          {
+            pid: 2,
+            projectName: "Create a case study for your portfolio",
+            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+          }
+        ]
+      },
+      {
         cid: 5,
         courseName: "Create High-Fidelity Designs and Prototypes in Figma",
         achievement: "Achieved 97.96%",
         projects: [
           {
             pid: 1,
-            projectName: "WCreate a high-fidelity prototype",
+            projectName: "Create a wireframes for website",
             projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
           },
           {
             pid: 2,
-            projectName: "Create a case study for your portfolio",
+            projectName: "Create low-fidelity prototype for website",
+            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+          },
+          {
+            pid: 2,
+            projectName: "Create high-fidelity prototype for website",
             projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
           }
         ]
