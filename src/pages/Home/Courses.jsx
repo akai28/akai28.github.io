@@ -30,7 +30,7 @@ const Courses = () => {
                                 <ul className="space-y-2">
                                   {projects.map(({ pid, projectName, projectLink }) => (
                                     <li key={pid} className="flex"> &#8618;
-                                      <a href={projectLink} target="_blank" rel="noreferrer" className="flex">{projectName}
+                                      <a href={projectLink} target="_blank" rel="noopener noreferrer" className="flex">{projectName}
                                         <span className="pl-2"><FiExternalLink /></span>
                                       </a>
                                     </li>
