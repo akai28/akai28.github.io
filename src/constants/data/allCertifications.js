@@ -6,19 +6,22 @@ export const allCertifications = [
     courses: [
       {
         cid: 7,
-        courseName: "Design a User Experience for Social Good & Prepare for Jobs",
+        courseName:
+          "Design a User Experience for Social Good & Prepare for Jobs",
         projects: [
           {
             pid: 1,
             projectName: "Case Study",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 2,
             projectName: "Create a case study for your portfolio",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 6,
@@ -28,14 +31,16 @@ export const allCertifications = [
           {
             pid: 1,
             projectName: "Create a high-fidelity prototype",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 2,
             projectName: "Create a case study for your portfolio",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 5,
@@ -45,19 +50,22 @@ export const allCertifications = [
           {
             pid: 1,
             projectName: "Create a wireframes for website",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 2,
             projectName: "Create low-fidelity prototype for website",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
-            pid: 2,
+            pid: 3,
             projectName: "Create high-fidelity prototype for website",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 4,
@@ -67,24 +75,28 @@ export const allCertifications = [
           {
             pid: 1,
             projectName: "Build a research plan",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 2,
             projectName: "Conduct a usability study",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 3,
             projectName: "Turn observations into insights",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 4,
             projectName: "Create project research presentation",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 3,
@@ -94,48 +106,55 @@ export const allCertifications = [
           {
             pid: 1,
             projectName: "Create storyboards",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 2,
             projectName: "Create digital wireframes",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 3,
             projectName: "Build a low-fidelity prototype",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 2,
-        courseName: "Start the UX Design Process: Empathize, Define, and Ideate",
+        courseName:
+          "Start the UX Design Process: Empathize, Define, and Ideate",
         achievement: "Achieved 94.33%",
         projects: [
           {
             pid: 1,
             projectName: "Create personas",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "/assets/projects/Google_UX_Design_Certificate_Persona.pdf",
           },
           {
             pid: 2,
             projectName: "Create a user journey map",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
           },
           {
             pid: 3,
             projectName: "Create a competitive audit",
-            projectLink: "https://www.coursera.org/learn/ux-design-professional/home/welcome"
-          }
-        ]
+            projectLink:
+              "https://www.coursera.org/professional-certificates/google-ux-design",
+          },
+        ],
       },
       {
         cid: 1,
         courseName: "Foundations of User Experience (UX) Design",
         achievement: "Achieved 94.84%",
-        projects: []
-      }
-    ]
-  }
-]
+        projects: [],
+      },
+    ],
+  },
+];

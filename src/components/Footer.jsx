@@ -1,5 +1,5 @@
 // @ts-check
-
+import React from "react";
 import { socialMediaIcons } from "../constants/data/socialMediaIcons";
 
 const Footer = () => {

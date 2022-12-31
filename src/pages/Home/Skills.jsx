@@ -1,4 +1,5 @@
 // @ts-check
+import React from "react";
 
 const Skills = () => {
   return (
@@ -13,7 +14,7 @@ const Skills = () => {
         <li> &rarr; learning<span className="text-cyan-600 text-xl md:text-2xl font-bold"> basic HTML &amp; CSS </span> for web development.</li>
       </ul>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

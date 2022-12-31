@@ -1,4 +1,6 @@
 // @ts-check
+import React from "react";
+
 import Courses from "./Courses";
 import Headline from "./Headline";
 import Skills from "./Skills";
