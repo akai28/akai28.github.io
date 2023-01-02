@@ -9,10 +9,20 @@ const Courses = () => {
       <h2 className="text-4xl font-medium text-slate-800">Courses </h2>
       <main className="grid grid-cols-1">
         <div className="text-cyan-900">
-          {allCertifications.map(({ id, certificationName, certificateProvider, courses }) => (
+          {allCertifications.map(({ id, certificationName, certificateProvider, courses, certificationLink, certificateOverall }) => (
             <div key={id}>
-              <p className="text-xl font-bold mt-4">{certificationName}</p>
-              <p className="text-lg font-light italic">{certificateProvider}</p>
+              {certificationName && <p className="text-xl font-bold mt-4">
+                <a href={certificateOverall} target="_blank" rel="noopener noreferrer" className="flex">
+                  {certificationName}
+                  <span className="pl-2"><FiExternalLink /></span>
+                </a>
+              </p>}
+              {certificateProvider && <p className="text-lg font-light italic">
+                <a href={certificationLink} target="_blank" rel="noopener noreferrer" className="flex">
+                  {certificateProvider}
+                  <span className="pl-2 self-center"><FiExternalLink size={12} /></span>
+                </a>
+              </p>}
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                 {courses.map(({ cid, courseName, achievement, projects }) => (

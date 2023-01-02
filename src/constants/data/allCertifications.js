@@ -3,6 +3,10 @@ export const allCertifications = [
     id: 1,
     certificationName: "Google UX Design Professional Certificate",
     certificateProvider: "Coursera",
+    certificationLink:
+      "https://www.coursera.org/professional-certificates/google-ux-design",
+    certificateOverall:
+      "/assets/projects/Google_UX_Specialization_Certificate.pdf",
     courses: [
       {
         cid: 7,
