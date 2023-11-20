@@ -1,0 +1,24 @@
+{
+  "name": "Akanksha Tiwari",
+  "short_name": "akai28",
+  "icons": [
+    {
+      "src": "./assets/favicon.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ebddb8",
+  "background_color": "#ebddb8",
+  "display": "standalone"
+}
